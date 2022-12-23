@@ -1,0 +1,29 @@
+name: skripsi
+
+channels:
+- conda-forge
+- anaconda
+- pytorch
+
+dependencies:
+- python
+- nb_conda_kernels
+- pip
+- ipython
+- tqdm
+- numpy
+- scipy
+- pandas
+- scikit-learn
+- matplotlib
+- seaborn
+- pytorch
+- torchvision
+- pillow
+
+- pip:
+  # Machine Learning
+  - split-folders
+  - torchinfo
+
+prefix: C:\Users\ff\miniconda3

@@ -1,0 +1,18 @@
+{
+    "base_output_dir" : "../output",
+    "model_output_dir": "../output/model",
+    "base_data_dir": "../data",
+    "dataset_name": "aksara sunda dataset",
+    "optimizer_name": "Adam",
+    "learning_rate": 0.0001,
+    "epochs": 30,
+    "drop_out":0.3,
+    "batch_size": 64,
+    "es_epochs": 100,
+    "patience":5,
+    "plot_every":32,
+    "ratio_split": "60/40",
+    "weight_decay": 0.0001,
+    "load_best": true,
+    "num_of_class":18
+}
